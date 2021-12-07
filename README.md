@@ -1,5 +1,5 @@
 # autoBspwm2
-Instalacion del entorno de trabajo (por s4vitar) automaticamente!
+Instalacion del entorno de trabajo (de s4vitar) automaticamente!
 
 Probado en Debian 10, 11, Ubuntu 20.04, Parrot OS y Kali Linux
 
