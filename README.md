@@ -22,7 +22,7 @@ git clone https://github.com/yorkox0/autoBspwm2; cd autoBspwm2; bash autoBspwm.s
 ```
 
 **2)** Ejecutamos el archivo 'autoBspwm2.sh':
-```
+```bash
 bash autoBspwm.sh
 
 # bash autoBspwm.sh -r (para ejecutar como root)
