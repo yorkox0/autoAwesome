@@ -15,7 +15,6 @@
 git clone https://github.com/yorkox0/autoBspwm2
 cd autoBspwm2
 ```
-
 ### Todo en uno:
 
 ```
