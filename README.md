@@ -2,7 +2,7 @@
 
 ## autoBspwm2 es una herrmanienta que permite instalar de forma semi-automática el entorno de trabajo bspwm con la config personalizada de s4vitar.
 
-## La utiidad consta de 5 funciones distintas:
+## La utilidad consta de 5 funciones distintas:
 - Instalar Dependencias.
 - Instalar Bspwm y Eww.
 - Instalar temas de Eww.
