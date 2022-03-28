@@ -4,8 +4,8 @@
 
 ## La utilidad consta de 5 funciones distintas:
 - Instalar Dependencias.
-- Instalar Bspwm y Eww.
-- Instalar temas de Eww.
+- Instalar Awesome.
+- Instalar temas de Awesome.
 - Instalar Rofi, Kitty, Powermenu...
 
 # Instalación
@@ -33,9 +33,6 @@ bash autoBspwm.sh
 ## Vista general
 ![autoBspwm2.1]("")
 ![autoBspwm2.2]("")
-
-## Utilidades:
-- **bspwm**: Tiling Window Manager (administrador de ventanas en mosaico). Autor: [baskerville](https://github.com/baskerville)
 
 ## Shortcuts (atajos de teclado)
 <kbd>Windows</kbd> + <kbd>Enter</kbd> : Abrir la terminal (kitty).  
