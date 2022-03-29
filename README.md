@@ -1,6 +1,4 @@
-# autoBspwm2
-
-## autoBspwm2 es una herrmanienta que permite instalar de forma semi-automática el entorno de trabajo bspwm con la config personalizada de s4vitar.
+## autoAwesome es una herrmanienta que permite instalar de forma semi-automática el entorno de trabajo bspwm con la config personalizada de s4vitar.
 
 ## La utilidad consta de 5 funciones distintas:
 - Instalar Dependencias.
@@ -12,20 +10,20 @@
 
 **1)** Clonar el repositorio:
 ```
-git clone https://github.com/yorkox0/autoBspwm2
-cd autoBspwm2
+git clone https://github.com/yorkox0/autoAwesome
+cd autoAwesome
 ```
 ### Todo en uno:
 
 ```
-git clone https://github.com/yorkox0/autoBspwm2; cd autoBspwm2; bash autoBspwm.sh
+git clone https://github.com/yorkox0/autoAwesome; cd autoAwesome; bash autoAwesome.sh
 ```
 
 **2)** Ejecutamos el archivo 'autoBspwm2.sh':
 ```bash
-bash autoBspwm.sh
+bash autoAwesome.sh
 
-# bash autoBspwm.sh -r (para ejecutar como root)
+# bash autoAwesome.sh -r (para ejecutar como root)
 ```
 **3)** ¿Qué hace el script?
 
