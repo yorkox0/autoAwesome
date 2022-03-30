@@ -87,21 +87,46 @@ function menu(){
 
 function dependencias(){
 
+echo -e "${red}[!] ${yellow}Instalando Dependencias..."
+
+
+echo -e "${green}[!] ${blue}Dependencias Instaladas."
+
 }
 
 function build(){
+
+echo -e "${red}[!] ${yellow}Instalando Awesome..."
+
+
+echo -e "${green}[!] ${blue}Awesome Instalado."
 
 }
 
 function awesome(){
 
+echo -e "${red}[!] ${yellow}Instalando temas de Awesome..."
+
+
+echo -e "${green}[!] ${blue}Los temas de Awesome se han instalado."
+
 }
 
 function themes(){
 
+echo -e "${red}[!] ${yellow}Instalando Widgets de Awesome..."
+
+
+echo -e "${green}[!] ${blue}Widgets Instalados."
+
 }
 
 function tools(){
+
+echo -e "${red}[!] ${yellow}Instalando funciones extra..."
+
+
+echo -e "${green}[!] ${blue}Functiones extra Instaladas."
 
 }
 
