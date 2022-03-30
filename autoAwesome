@@ -35,13 +35,13 @@ function menu(){
 	echo "1 -> Instalar dependencias"
 	sleep 0.25
 	echo
-	echo "2 -> Instalar Bspwm"
+	echo "2 -> Instalar Awesome"
 	sleep 0.25
 	echo
-	echo "3 -> Instalar Polybar"
+	echo "3 -> Instalar widgets de Awesome"
 	sleep 0.25
 	echo
-	echo "4 -> Instalar tema de Polybar"
+	echo "4 -> Instalar tema de Awesome"
 	sleep 0.25
 	echo
 	echo "5 -> Instalar elementos adicionales: rofi, caja, firefox..."
@@ -57,32 +57,52 @@ function menu(){
 	read -p "--> " comando
 
 	if [ "$comando" == "1" ]; then
-		bash scripts/dependencias
+		dependencias
 		fi
 
         if [ "$comando" == "2" ]; then
-                bash scripts/bspwm
+                build
                 fi
 
         if [ "$comando" == "3" ]; then
-                bash scripts/polybar-build
+                awesome
                 fi
 
         if [ "$comando" == "4" ]; then
-                bash scripts/polybar-theme
+                themes
                 fi
 
         if [ "$comando" == "5" ]; then
-                bash scripts/tools
+                tools
                 fi
 
         if [ "$comando" == "6" ]; then
-                bash scripts/dependencias
-		bash scripts/bspwm
-		bash scripts/polybar-build
-		bash scripts/polybar-theme
-		bash scripts/tools
+                dependencias
+		build
+		awesome
+		themes
+		tools
                 fi
+}
+
+function dependencias(){
+
+}
+
+function build(){
+
+}
+
+function awesome(){
+
+}
+
+function themes(){
+
+}
+
+function tools(){
+
 }
 
 username=$(whoami)
