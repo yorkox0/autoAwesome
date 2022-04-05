@@ -19,11 +19,11 @@ cd autoAwesome
 git clone https://github.com/yorkox0/autoAwesome; cd autoAwesome; bash autoAwesome.sh
 ```
 
-**2)** Ejecutamos el archivo 'autoBspwm2.sh':
+**2)** Ejecutamos el archivo 'autoAwesome.sh':
 ```bash
 bash autoAwesome.sh
 
-# bash autoAwesome.sh -r (para ejecutar como root)
+# bash autoAwesome.sh -r (para ejecutar como root) (Aun no implementado)
 ```
 **3)** ¿Qué hace el script?
 
@@ -39,5 +39,5 @@ bash autoAwesome.sh
 - https://video/de/s4vi
 
 ## Créditos
-- Autores: Bleyom y Yorkox.
-- Inspirado en s4vitar.
+- Autores: Bleyom y Yorkox. 
+- Inspirado en s4vitar ❤️.
