@@ -39,7 +39,7 @@ rm -rf paru-bin/
 paru -S picom-ibhagwan-git alacritty rofi todo-bin acpi acpid \
 wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
 brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
-mpd mpc mpdris2 ncmpcpp playerctl --needed --noconfirm 
+mpd mpc mpdris2 ncmpcpp playerctl zsh-autosuggestions zsh-syntax-highlighting --needed --noconfirm 
 
 systemctl --user enable mpd.service
 systemctl --user start mpd.service
