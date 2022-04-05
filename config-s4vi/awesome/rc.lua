@@ -1,4 +1,3 @@
-pcall(require, "luarocks.loader")
 --[[
  _____ __ _ __ _____ _____ _____ _______ _____
 |     |  | |  |  ___|  ___|     |       |  ___|
@@ -7,7 +6,7 @@ pcall(require, "luarocks.loader")
                ~ AestheticArch ~
                      rxyhn
 --]]
-
+pcall(require, "luarocks.loader")
 
 -- Standard awesome library
 local gfs = require("gears.filesystem")
@@ -15,7 +14,6 @@ local awful = require("awful")
 
 -- Theme handling library
 local beautiful = require("beautiful")
-theme_dir = gfs.get_configuration_dir() .. "theme/"
 dpi = beautiful.xresources.apply_dpi
 beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 
@@ -24,10 +22,8 @@ terminal = "kitty"
 editor = terminal .. " -e " .. os.getenv("EDITOR")
 vscode = "code"
 browser = "firefox"
-burp_proxy = "burpsuite"
-launcher = "rofi -show drun -theme " .. theme_dir .. "rofi.rasi"
+launcher = "rofi -show drun -theme " .. os.getenv("HOME") .. "/.config/awesome/theme/rofi.rasi"
 file_manager = "nautilus"
-burpsuite = "burpsuite"
 music_client = terminal .. " --class music -e ncmpcpp"
 
 -- Weather API
@@ -40,7 +36,7 @@ screen_width = awful.screen.focused().geometry.width
 screen_height = awful.screen.focused().geometry.height
 
 -- Autostart
-local autostart = require("configuration.autostart")
+awful.spawn.with_shell(gfs.get_configuration_dir() .. "configuration/autostart")
 
 -- Import Configuration
 require("configuration")
@@ -53,7 +49,3 @@ require("ui")
 collectgarbage("setpause", 110)
 collectgarbage("setstepmul", 1000)
 
--- Definicion de variables
-local wallpaper_cmd = "feh --bg-fill /home/s4vitar/Desktop/s4vitar/Images/arch.jpg"
-
-os.execute(wallpaper_cmd)

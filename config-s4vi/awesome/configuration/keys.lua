@@ -48,19 +48,14 @@ awful.keyboard.append_global_keybindings({
             awful.spawn(file_manager)
         end,
         {description = "open file manager", group = "launcher"}),
-        awful.key({modkey, "Shift"}, "f", function()
+        awful.key({modkey}, "w", function()
             awful.spawn.with_shell(browser)
         end,
         {description = "open web browser", group = "launcher"}),
         awful.key({modkey}, "x", function()
             awful.spawn.with_shell("xcolor-pick")
         end,
-        {description = "open color-picker", group = "launcher"}),
-        awful.key({modkey, "Shift"}, "b", function()
-            awful.spawn.with_shell(burp_proxy)
-        end,
-        {description = "open burpsuite", group = "launcher"}),
-
+        {description = "open color-picker", group = "launcher"})
 })
 
 -- Client and Tabs Bindings

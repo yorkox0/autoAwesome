@@ -63,8 +63,8 @@ local notifs_empty = wibox.widget {
 }
 
 local notifs_container = wibox.widget{
-    spacing = dpi(6),
-    forced_width = beautiful.notifs_width or dpi(240),
+    spacing = dpi(10),
+    forced_width = dpi(240),
     layout = wibox.layout.fixed.vertical
 }
 
@@ -159,7 +159,7 @@ local create_notif = function(icon, n, width)
         },
         bg = beautiful.xcolor0,
         shape = helpers.rrect(dpi(4)),
-        forced_height = dpi(66),
+        forced_height = dpi(64),
         widget = wibox.container.background
     }
 
@@ -168,6 +168,14 @@ local create_notif = function(icon, n, width)
             _G.remove_notif(box)
         end)
     ))
+
+    box:connect_signal("mouse::enter", function()
+        box.bg = beautiful.xcolor8
+    end)
+
+    box:connect_signal("mouse::leave", function()
+        box.bg = beautiful.xcolor0
+    end)
 
     return box
 end
@@ -200,7 +208,7 @@ naughty.connect_signal("request::display", function(n)
         notif_color = beautiful.xcolor1 .. '66'
     end
     local appicon = n.icon or n.app_icon
-    if not appicon then appicon = beautiful.notification_icon end
+    if not appicon then appicon = gears.color.recolor_image(beautiful.notification_icon, beautiful.xcolor4) end
 
     notifs_container:insert(1, create_notif(appicon, n, width))
 end)

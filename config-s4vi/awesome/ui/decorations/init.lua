@@ -32,5 +32,5 @@ else
     beautiful.snap_shape = gears.shape.rectangle
 end
 
--- require("ui.decorations.titlebar")
--- require("ui.decorations.music")
+require("ui.decorations.titlebar")
+require("ui.decorations.music")
