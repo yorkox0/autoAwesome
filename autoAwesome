@@ -163,6 +163,11 @@ function menu(){
                 fi
 }
 
+if [[ "$1" == "-a" ]];then
+  echo "[!] Cuando sale la academia, Y la Silla!?!?"
+  exit 0
+fi
+
 if [ "$(id -u)" == "0" ]; then
 	echo -e "\n${red}[!] No hay que ser root para ejecutar la herramienta${end}"
 	echo
@@ -170,3 +175,4 @@ if [ "$(id -u)" == "0" ]; then
 else
 	menu
 fi
+
