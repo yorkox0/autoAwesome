@@ -33,7 +33,7 @@ bash autoAwesome.sh
 ![autoBspwm2.2](https://i.imgur.com/fSrPLw4.png)
 
 ## Configuración manual:
-- https://video/de/s4vi
+- https://youtu.be/fshLf6u8B-w
 
 ## Créditos
 - Autores: Bleyom y Yorkox. 
