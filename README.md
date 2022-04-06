@@ -1,4 +1,4 @@
-## autoAwesome es una herrmanienta que permite instalar de forma semi-automática el entorno de trabajo bspwm con la config personalizada de s4vitar.
+## autoAwesome es una herrmanienta que permite instalar de forma semi-automática el entorno de trabajo awesome con la config personalizada de s4vitar.
 
 ## La utilidad consta de 5 funciones distintas:
 - Instalar Dependencias.
