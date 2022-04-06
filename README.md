@@ -32,9 +32,6 @@ bash autoAwesome.sh
 ![autoBspwm2.1](https://i.imgur.com/u0Fzq0x.png)
 ![autoBspwm2.2](https://i.imgur.com/fSrPLw4.png)
 
-## Shortcuts (atajos de teclado)
-<kbd>Windows</kbd> + <kbd>Enter</kbd> : Abrir la terminal (kitty).  
-
 ## Configuración manual:
 - https://video/de/s4vi
 
