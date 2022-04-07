@@ -41,6 +41,8 @@ wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
 brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
 mpd mpc mpdris2 ncmpcpp playerctl zsh-autosuggestions zsh-syntax-highlighting --needed --noconfirm 
 
+mkdir /home/$USER/.todo/
+
 systemctl --user enable mpd.service
 systemctl --user start mpd.service
 sudo systemctl enable acpid.service
@@ -49,6 +51,7 @@ sudo systemctl start acpid.service
 echo -e "${green}[!] ${blue}Dependencias Instaladas."
 clear
 echo -e "${end}"
+
 }
 
 function build(){
