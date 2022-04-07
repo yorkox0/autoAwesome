@@ -163,7 +163,7 @@ function menu(){
                 fi
 }
 
-if [[ "$1" == "-" ]];then
+if [[ "$1" == "-p" ]];then
   echo "[!] Cuando sale la academia, Y la Silla!?!?"
   exit 0
 fi
