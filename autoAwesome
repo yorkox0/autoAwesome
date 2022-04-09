@@ -84,6 +84,7 @@ function themes(){
 
 echo -e "${red}[!] ${yellow}Instalando temas de Awesome..."
 echo -e "${end}"
+cp config-s4vi/.Xresources $HOME
 cp config-s4vi/.profile $HOME
 cp -r config-s4vi/* "$HOME"/.config
 
