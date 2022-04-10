@@ -36,5 +36,6 @@ bash autoAwesome.sh
 - https://youtu.be/fshLf6u8B-w
 
 ## Créditos
-- Autores: Bleyom y Yorkox. 
+- Autor de los dotfiles: Rxyhn! https://github.com/rxyhn
+- Autores del script: Bleyom y Yorkox. 
 - Inspirado en s4vitar ❤️.
