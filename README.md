@@ -19,9 +19,9 @@ cd autoAwesome
 git clone https://github.com/yorkox0/autoAwesome; cd autoAwesome; bash autoAwesome.sh
 ```
 
-**2)** Ejecutamos el archivo 'autoAwesome.sh':
+**2)** Ejecutamos el archivo `autoAwesome`:
 ```bash
-bash autoAwesome.sh
+bash autoAwesome
 
 # bash autoAwesome.sh -r (para ejecutar como root) (Aun no implementado)
 ```
